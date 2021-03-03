@@ -1,0 +1,9 @@
+/*  ALL THE CSS IN HERE IS FOR PHONE */
+
+/* Phone ends here */
+
+/* This starts your rules for desktop/laptop */
+
+@media screen and (min-width: 1024px) {}
+
+/* Desktop / laptop rules ends here */
