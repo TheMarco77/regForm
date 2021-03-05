@@ -1,4 +1,35 @@
 /*  ALL THE CSS IN HERE IS FOR PHONE */
+body {
+    font-family: 'Dosis', sans-serif;
+    margin: 0px;
+}
+
+main header {
+    margin: 0px;
+}
+
+.news-letter {
+    text-align: center;
+}
+
+.info-NewsL {
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.pgTitle {
+    text-align: center;
+    font-size: 1.4rem;
+    background-color: #2D3945;
+    color: #FFF;
+    margin-top: 0px;
+    padding: 1.4rem;
+}
+
+
+fieldset {
+    border: none;
+}
 
 /* Phone ends here */
 
@@ -11,6 +42,11 @@
 
     .news-letter {
         text-align: center;
+    }
+
+    fieldset {
+        border: none;
+
     }
 }
 
