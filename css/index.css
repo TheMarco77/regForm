@@ -54,18 +54,16 @@ main {
     text-align: center;
 }
 
+fieldset {
+    border: none;
+}
+
 .info-NewsL {
     text-align: left;
     font-size: 1.3rem;
     font-weight: 700;
-    padding-top: 10px;
+    padding: 10px 0 0 0;
     margin-bottom: 10px;
-}
-
-
-
-fieldset {
-    border: none;
 }
 
 /* Phone ends here */
