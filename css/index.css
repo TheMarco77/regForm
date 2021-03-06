@@ -66,6 +66,13 @@ fieldset {
     margin-bottom: 10px;
 }
 
+.client-info {
+    text-align: left;
+    font-weight: 300;
+    color: #6E7E8C;
+
+}
+
 /* Phone ends here */
 
 /* This starts your rules for desktop/laptop */
