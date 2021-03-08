@@ -61,17 +61,56 @@ fieldset {
 .info-NewsL {
     text-align: left;
     font-size: 1.3rem;
-    font-weight: 700;
+    font-weight: 300;
     padding: 10px 0 0 0;
-    margin-bottom: 10px;
+    margin-bottom: 3px;
+}
+
+.info-NewsL-slog {
+    color: #6E7D8D;
+    text-align: left;
+    font-size: 1.1rem;
+    font-weight: 300;
+    padding: 10px 0 0 5px;
+    margin-top: 3px;
+    margin-bottom: 15px;
+}
+
+.contact-info {
+    font-weight: 300;
+    font-size: 1.2rem;
 }
 
 .client-info {
     text-align: left;
     font-weight: 300;
+    /* margin: ; */
+    /* investigate why I was working on a margin! */
     color: #6E7E8C;
-
 }
+
+.client-field-info {
+    text-align: right;
+    font-weight: 300;
+    font-style: italic;
+    color: #6E7E8C;
+    /* padding: 16px 88px 16px 33px; */
+    width: 275px;
+    height: 40px;
+    padding: 5px 2px;
+    border: 2px;
+    /* padding-right: 5px 17px 5px 1px; */
+    margin: 3px;
+    /* margin-bottom: 10px; */
+    /* border: 2px;
+    border-left: 1px; */
+}
+
+input::placeholder {
+    text-align: right;
+}
+
+
 
 /* Phone ends here */
 
