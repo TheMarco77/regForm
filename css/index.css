@@ -108,6 +108,18 @@ input::placeholder {
 .news-choice {
     font-weight: 300;
     color: #6E7E8C;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.textarea {
+    background-color: rgb(245, 232, 221);
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* border-style: double; */
 }
 
 /* Phone ends here */
