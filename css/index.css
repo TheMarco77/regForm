@@ -84,13 +84,14 @@ fieldset {
 .client-info {
     text-align: left;
     font-weight: 300;
-    /* margin: ; */
-    /* investigate why I was working on a margin! */
     color: #6E7E8C;
+    margin: 2px;
 }
 
 .client-field-info {
-    /* text-align: right; */
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
     font-weight: 300;
     font-style: italic;
     color: #6E7E8C;
@@ -109,9 +110,9 @@ input::placeholder {
 .news-choice {
     font-weight: 300;
     color: #6E7E8C;
-    padding-top: 5px;
+    /* padding-top: 5px; */
     padding-bottom: 5px;
-    margin-top: 10px;
+    /* margin-top: 10px; */
     margin-bottom: 10px;
 }
 
@@ -217,6 +218,19 @@ input::placeholder {
         /* margin: ; */
         /* investigate why I was working on a margin! */
         color: #6E7E8C;
+    }
+
+    .news-choice {
+        display: flex;
+        /* figure flexbox */
+        flex-direction: column;
+        justify-content: flex-end;
+        font-weight: 300;
+        color: #6E7E8C;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
 
     .news-letter {
