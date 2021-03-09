@@ -94,6 +94,7 @@ fieldset {
     font-weight: 300;
     font-style: italic;
     color: #6E7E8C;
+    background-color: #EBEBEB;
     width: 275px;
     height: 40px;
     padding: 5px 2px;
@@ -115,7 +116,7 @@ input::placeholder {
 }
 
 .textarea {
-    /* background-color: rgb(245, 232, 221); */
+    background-color: #EBEBEB;
     align-items: center;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -154,11 +155,47 @@ input::placeholder {
 
 @media screen and (min-width: 768px) {
     body {
+        width: 100%;
+        align-items: center;
         font-family: 'Merriweather', serif;
     }
 
     .pgTitle {
         text-align: center;
+    }
+
+    .contact-info {
+        font-weight: 300;
+        font-size: 1.2rem;
+        align-items: center;
+    }
+
+    .line-two {
+        align-items: center;
+        width: 663px;
+        margin: 2px 0 2px 14px;
+        /* margin: 3px 0 2px 14px; */
+        border-bottom: black solid .15rem;
+        /* margin: .75rem; */
+        /* margin-top: 3px; */
+    }
+
+
+
+    .line-one {
+        align-items: center;
+        width: 663px;
+        margin: 12px 0 2px 14px;
+        border-bottom: 4px;
+        border-bottom: black solid .25rem;
+    }
+
+
+    form {
+        width: 700px;
+        height: 1337px;
+        padding-left: 1px;
+        margin-left: 44px;
     }
 
     .news-letter {
