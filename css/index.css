@@ -174,10 +174,7 @@ input::placeholder {
         align-items: center;
         width: 663px;
         margin: 2px 60 2px 60px;
-        /* margin: 3px 0 2px 14px; */
         border-bottom: black solid .15rem;
-        /* margin: .75rem; */
-        /* margin-top: 3px; */
     }
 
     .line-one {
@@ -208,6 +205,18 @@ input::placeholder {
         padding: 5px 2px;
         border: 2px;
         margin: 3px;
+    }
+
+    .client-info {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        /* text-align: right; */
+        font-weight: 300;
+        width: 100%;
+        /* margin: ; */
+        /* investigate why I was working on a margin! */
+        color: #6E7E8C;
     }
 
     .news-letter {
