@@ -90,7 +90,7 @@ fieldset {
 }
 
 .client-field-info {
-    text-align: right;
+    /* text-align: right; */
     font-weight: 300;
     font-style: italic;
     color: #6E7E8C;
@@ -173,29 +173,41 @@ input::placeholder {
     .line-two {
         align-items: center;
         width: 663px;
-        margin: 2px 0 2px 14px;
+        margin: 2px 60 2px 60px;
         /* margin: 3px 0 2px 14px; */
         border-bottom: black solid .15rem;
         /* margin: .75rem; */
         /* margin-top: 3px; */
     }
 
-
-
     .line-one {
         align-items: center;
         width: 663px;
-        margin: 12px 0 2px 14px;
+        margin: 12px 60 2px 60px;
         border-bottom: 4px;
         border-bottom: black solid .25rem;
     }
-
 
     form {
         width: 700px;
         height: 1337px;
         padding-left: 1px;
         margin-left: 44px;
+    }
+
+    .client-field-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        font-weight: 300;
+        font-style: italic;
+        color: #6E7E8C;
+        background-color: #EBEBEB;
+        width: 275px;
+        height: 40px;
+        padding: 5px 2px;
+        border: 2px;
+        margin: 3px;
     }
 
     .news-letter {
