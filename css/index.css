@@ -92,7 +92,7 @@ fieldset {
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 5px 8px 5px 0;
-    border: solid red 2px;
+    /* border: solid red 2px; */
 }
 
 .client-field-info {
@@ -105,8 +105,15 @@ fieldset {
     background-color: #EBEBEB;
     width: 288px;
     height: 40px;
-    border: solid red 2px;
+    /* border: solid red 2px; */
     width: 100%;
+}
+
+.state-client-field-info {
+    margin-right: 2px;
+    width: 293px;
+    /* height: 36px; | | in case of need*/
+    /* element use for the state drop down menu **ONLY** */
 }
 
 input::placeholder {
