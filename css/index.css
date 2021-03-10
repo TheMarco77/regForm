@@ -112,6 +112,7 @@ fieldset {
 .state-client-field-info {
     margin-right: 2px;
     width: 293px;
+    width: 100%;
     /* height: 36px; | | in case of need*/
     /* element use for the state drop down menu **ONLY** */
 }
