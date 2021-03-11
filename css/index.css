@@ -33,7 +33,7 @@ main {
     color: #B6BABE;
     margin: 9px 0 23px 0;
     padding: 0 15px 10px 15px;
-    font-size: 18px;
+    font-size: .85rem;
 }
 
 .line-one {
@@ -59,7 +59,7 @@ fieldset {
 
 .info-NewsL {
     text-align: left;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     font-weight: 900;
     padding: 10px 0 0 0;
     margin-bottom: 3px;
@@ -81,18 +81,16 @@ fieldset {
     margin-left: 2px;
     padding: 6px 8px 9px 9px;
     height: 714px;
-    /* border: purple solid 2px; */
 }
 
 .client-info {
     text-align: left;
-    font-size: 1.1rem;
+    font-size: .89rem;
     font-weight: 300;
     color: #6E7E8C;
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 5px 8px 5px 0;
-    /* border: solid red 2px; */
 }
 
 .client-field-info {
@@ -105,7 +103,6 @@ fieldset {
     background-color: #EBEBEB;
     width: 288px;
     height: 40px;
-    /* border: solid red 2px; */
     width: 100%;
 }
 
@@ -119,6 +116,8 @@ fieldset {
 
 input::placeholder {
     text-align: right;
+    font-size: .73rem;
+    font-weight: 300;
 }
 
 .news-choice {
@@ -215,10 +214,8 @@ input::placeholder {
         font-style: italic;
         color: #6E7E8C;
         background-color: #EBEBEB;
-        /* width: 275px; */
         height: 40px;
         padding: 5px 2px;
-        border: 2px;
         margin: 3px;
     }
 
@@ -226,11 +223,7 @@ input::placeholder {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        /* text-align: right; */
         font-weight: 300;
-        /* width: 100%; */
-        /* margin: ; */
-        /* investigate why I was working on a margin! */
         color: #6E7E8C;
     }
 
