@@ -98,7 +98,6 @@ fieldset {
     flex-direction: row-reverse;
     justify-content: space-between;
     font-weight: 300;
-    font-style: italic;
     color: #6E7E8C;
     background-color: #EBEBEB;
     height: 45px;
@@ -135,7 +134,8 @@ input::placeholder {
     text-align: right;
     font-size: .73rem;
     font-weight: 300;
-    margin-right: 10px;
+    color: #A5AEB7;
+    padding-right: 15px;
 }
 
 .news-choice {
