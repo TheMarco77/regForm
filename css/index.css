@@ -207,6 +207,23 @@ input::placeholder {
         font-family: 'Merriweather', serif;
     }
 
+    .container {
+        padding-right: 5rem;
+        padding-left: 5rem;
+    }
+
+    fieldset {
+        border: none;
+        align-items: center;
+    }
+
+    form {
+        /* width: 700px; */
+        /* height: 1337px; */
+        padding-left: 1px;
+        /* margin-left: 44px; */
+    }
+
     .pgTitle {
         text-align: center;
     }
@@ -215,6 +232,14 @@ input::placeholder {
         font-weight: 300;
         font-size: 1.2rem;
         align-items: center;
+        height: auto;
+    }
+
+    .info-NewsL {
+        text-align: left;
+        font-size: 1.1rem;
+        font-weight: 900;
+        padding: 30px 0 0 0;
     }
 
     .line-two {
@@ -232,24 +257,17 @@ input::placeholder {
         border-bottom: black solid .25rem;
     }
 
-    form {
-        /* width: 700px; */
-        height: 1337px;
-        padding-left: 1px;
-        margin-left: 44px;
-    }
-
     .client-field-info {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: space-between;
         font-weight: 300;
-        font-style: italic;
         color: #6E7E8C;
         background-color: #EBEBEB;
         height: 40px;
         padding: 5px 2px;
         margin: 3px;
+        width: 430px;
     }
 
     .client-info {
@@ -258,6 +276,11 @@ input::placeholder {
         justify-content: space-between;
         font-weight: 300;
         color: #6E7E8C;
+    }
+
+    .label-info {
+        margin-top: 10px;
+        padding-top: 10px;
     }
 
     .news-choice {
@@ -277,9 +300,16 @@ input::placeholder {
         text-align: center;
     }
 
-    fieldset {
+    .zip-input {
+        font-weight: 300;
+        color: #6E7E8C;
+        background-color: #EBEBEB;
+        width: 75%;
+        height: 40px;
+        margin-top: 9px;
         border: none;
-
+        border-radius: 5px;
+        align-items: left;
     }
 }
 
