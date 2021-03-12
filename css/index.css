@@ -68,10 +68,10 @@ fieldset {
 .info-NewsL-slog {
     color: #6E7D8D;
     text-align: left;
-    font-size: 1.1rem;
-    font-weight: 300;
-    padding: 10px 0 0 5px;
-    margin-top: 3px;
+    font-size: .92rem;
+    font-weight: 400;
+    padding-top: 3px;
+    margin-top: 15px;
     margin-bottom: 15px;
 }
 
@@ -141,10 +141,23 @@ input::placeholder {
 .news-choice {
     font-weight: 300;
     color: #6E7E8C;
-    padding-top: 5px;
+    font-size: .89rem;
+    padding-top: 0px;
     padding-bottom: 5px;
-    margin-top: 10px;
     margin-bottom: 10px;
+}
+
+.news-choice-format {
+    font-weight: 300;
+    font-size: .90rem;
+    color: #6E7E8C;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.other-topics-format {
+    font-weight: 300;
+    padding-top: 10px;
 }
 
 .textarea {
@@ -153,13 +166,14 @@ input::placeholder {
     margin-top: 20px;
     margin-bottom: 20px;
     border: none;
+    width: 100%;
 }
 
 .submit-btn {
     width: 100%;
     text-align: center;
     font-weight: 700;
-    font-size: 1.3rem;
+    font-size: 1.15rem;
     padding: 18px 60px;
     border: 2px;
     margin-top: 10px;
@@ -175,6 +189,7 @@ input::placeholder {
     color: #9DA3A8;
     font-style: italic;
     font-weight: 300;
+    font-size: .86rem;
     padding-top: 3px;
     padding-bottom: 8px;
     margin-top: 16px;
