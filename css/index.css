@@ -202,7 +202,6 @@ input::placeholder {
 @media screen and (min-width: 768px) {
     body {
         width: 100%;
-        /* text-align: center; */
         font-family: 'Merriweather', serif;
     }
 
@@ -311,12 +310,10 @@ input::placeholder {
     }
 
     .other-topics-format {
+        display: block;
+        margin-top: 20px;
         font-size: .80rem;
-        /* align-items: left; */
-        /* font-weight: 300; */
-        /* padding-top: 10px; */
     }
 }
-
 
 /* Desktop / laptop rules ends here */
