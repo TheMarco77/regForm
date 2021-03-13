@@ -2,6 +2,7 @@
 body {
     font-family: 'Merriweather', serif;
     margin: 0px;
+    background: ghostwhite;
 }
 
 main {
@@ -11,18 +12,18 @@ main {
 .pgTitle {
     text-align: center;
     font-family: 'Merriweather', serif;
-    font-size: 1.2rem;
+    font-size: 20px;
     background-color: #2D3945;
     color: #FFF;
     margin-top: 0px;
-    padding: 1.4rem;
+    padding: 1.4em;
 }
 
 .news-letter {
     font-family: 'Merriweather', serif;
     color: #2D3945;
     font-weight: 900;
-    font-size: 1.2rem;
+    font-size: 1.2em;
     padding-right: 10px;
     padding-left: 10px;
     margin-top: 25px;
@@ -33,18 +34,18 @@ main {
     color: #B6BABE;
     margin: 9px 0 23px 0;
     padding: 0 15px 10px 15px;
-    font-size: .85rem;
+    font-size: .85em;
 }
 
 .line-one {
-    border-bottom: black solid .25rem;
-    margin: .75rem;
+    border-bottom: black solid .25em;
+    margin: .75em;
     margin-bottom: 2px;
 }
 
 .line-two {
-    border-bottom: black solid .15rem;
-    margin: .75rem;
+    border-bottom: black solid .15em;
+    margin: .75em;
     margin-top: 3px;
 }
 
@@ -59,7 +60,7 @@ fieldset {
 
 .info-NewsL {
     text-align: left;
-    font-size: 1.1rem;
+    font-size: 1.1em;
     font-weight: 900;
     padding: 10px 0 0 0;
 }
@@ -67,7 +68,7 @@ fieldset {
 .info-NewsL-slog {
     color: #6E7D8D;
     text-align: left;
-    font-size: .92rem;
+    font-size: .92em;
     font-weight: 400;
     padding-top: 3px;
     margin-top: 15px;
@@ -76,7 +77,7 @@ fieldset {
 
 .contact-info {
     font-weight: 300;
-    font-size: 1.2rem;
+    font-size: 1.2em;
     margin-left: 2px;
     padding: 6px 8px 9px 9px;
     height: 714px;
@@ -131,7 +132,7 @@ fieldset {
 
 input::placeholder {
     text-align: right;
-    font-size: .73rem;
+    font-size: .73em;
     font-weight: 300;
     color: #A5AEB7;
     padding-right: 15px;
@@ -140,7 +141,7 @@ input::placeholder {
 .news-choice {
     font-weight: 300;
     color: #6E7E8C;
-    font-size: .89rem;
+    font-size: .89em;
     padding-top: 0px;
     padding-bottom: 5px;
     margin-bottom: 10px;
@@ -148,7 +149,7 @@ input::placeholder {
 
 .news-choice-format {
     font-weight: 300;
-    font-size: .90rem;
+    font-size: .90em;
     color: #6E7E8C;
     padding-top: 10px;
     padding-bottom: 5px;
@@ -172,12 +173,11 @@ input::placeholder {
     width: 100%;
     text-align: center;
     font-weight: 700;
-    font-size: 1.15rem;
+    font-size: 1.15em;
     padding: 18px 60px;
     border: 2px;
     margin-top: 10px;
     margin-bottom: 10px;
-    border: solid 1px #4EBBB5;
     border-radius: 5px;
     background-color: #4EBBB5;
     color: white;
@@ -188,11 +188,11 @@ input::placeholder {
     color: #9DA3A8;
     font-style: italic;
     font-weight: 300;
-    font-size: .86rem;
+    font-size: .86em;
     padding-top: 3px;
     padding-bottom: 8px;
     margin-top: 16px;
-    margin-bottom: 9rem;
+    margin-bottom: 9em;
 }
 
 input:focus {
@@ -206,7 +206,7 @@ input:focus {
         0 0 0 5px #2D3945,
         0 0 0 10px;
     opacity: .9;
-    transition: all .8s ease;
+    transition-delay: all .8s ease;
 }
 
 /* Phone ends here */
@@ -220,8 +220,8 @@ input:focus {
     }
 
     .container {
-        padding-right: 5rem;
-        padding-left: 5rem;
+        padding-right: 5em;
+        padding-left: 5em;
     }
 
     fieldset {
@@ -249,33 +249,34 @@ input:focus {
 
     .pgTitle {
         text-align: center;
+        font-size: 30px;
     }
 
     .contact-info {
         font-weight: 300;
-        font-size: 1.2rem;
+        font-size: 1.2em;
         align-items: center;
         height: auto;
     }
 
     .info-NewsL {
         text-align: left;
-        font-size: 1.1rem;
+        font-size: 1.1em;
         font-weight: 900;
         padding: 30px 0 0 0;
     }
 
     .line-two {
         align-items: center;
-        margin: 2px 60 2px 60px;
-        border-bottom: black solid .15rem;
+        margin: 2px 0 2px 0;
+        border-bottom: black solid .15em;
     }
 
     .line-one {
         align-items: center;
-        margin: 12px 60 2px 60px;
+        margin: 12px 0 2px 0;
         border-bottom: 4px;
-        border-bottom: black solid .25rem;
+        border-bottom: black solid .25em;
     }
 
     .client-field-info {
@@ -334,13 +335,13 @@ input:focus {
         margin-top: 9px;
         border: none;
         border-radius: 5px;
-        align-items: left;
+
     }
 
     .other-topics-format {
         display: block;
         margin-top: 20px;
-        font-size: .80rem;
+        font-size: .80em;
     }
 }
 
