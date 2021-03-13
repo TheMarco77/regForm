@@ -195,6 +195,20 @@ input::placeholder {
     margin-bottom: 9rem;
 }
 
+input:focus {
+    box-shadow:
+        0 0 0 5px burlywood,
+        0 0 0 10px;
+}
+
+:focus {
+    box-shadow:
+        0 0 0 5px #2D3945,
+        0 0 0 10px;
+    opacity: .9;
+    transition: all .8s ease;
+}
+
 /* Phone ends here */
 
 /* This starts your rules for desktop/laptop */
@@ -217,6 +231,20 @@ input::placeholder {
 
     form {
         padding-left: 1px;
+    }
+
+    input:focus {
+        box-shadow:
+            0 0 0 5px burlywood,
+            0 0 0 10px;
+    }
+
+    :focus {
+        box-shadow:
+            0 0 0 5px #2D3945,
+            0 0 0 10px;
+        opacity: .9;
+        transition: all .8s ease;
     }
 
     .pgTitle {
