@@ -220,7 +220,11 @@ input:focus {
     }
 
     .container {
-        padding-right: 5em;
+        /* troubleshooting */
+        max-width: 1200px;
+        width: 100%;
+        margin: 0;
+        /* padding-right: 5em; */
         padding-left: 5em;
     }
 
@@ -343,6 +347,5 @@ input:focus {
         margin-top: 20px;
         font-size: .80em;
     }
-}
 
-/* Desktop / laptop rules ends here */
+    /* Desktop / laptop rules ends here */
