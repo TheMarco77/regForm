@@ -12,8 +12,8 @@ main {
 .pgTitle {
     text-align: center;
     font-family: 'Merriweather', serif;
-    font-size: 20px;
-    background-color: #2D3945;
+    font-size: 10px;
+    background-color: #573945;
     color: #FFF;
     margin-top: 0px;
     padding: 1.4em;
@@ -97,7 +97,6 @@ fieldset {
     display: flex;
     flex-direction: row-reverse;
     justify-content: flex-start;
-    /* justify-content: space-between; */
     font-weight: 300;
     color: #6E7E8C;
     background-color: #EBEBEB;
@@ -121,15 +120,7 @@ fieldset {
 }
 
 .zip-input {
-    font-weight: 300;
-    color: #6E7E8C;
-    background-color: #EBEBEB;
     width: 50%;
-    height: 40px;
-    margin-top: 9px;
-    border: none;
-    border: solid red 2px;
-    border-radius: 5px;
 }
 
 input::placeholder {
@@ -181,7 +172,7 @@ input::placeholder {
     margin-top: 10px;
     margin-bottom: 10px;
     border-radius: 5px;
-    background-color: #4EBBB5;
+    background-color: rgb(57, 39, 45, .7);
     color: white;
 }
 
@@ -197,6 +188,7 @@ input::placeholder {
     margin-bottom: 9em;
 }
 
+
 input:focus {
     box-shadow:
         0 0 0 5px burlywood,
@@ -208,8 +200,9 @@ input:focus {
         0 0 0 5px #2D3945,
         0 0 0 10px;
     opacity: .9;
-    transition-delay: all .8s ease;
+    transition: all .8s ease;
 }
+
 
 /* Phone ends here */
 
@@ -222,12 +215,9 @@ input:focus {
     }
 
     .container {
-        /* troubleshooting */
-        max-width: 1200px;
+        max-width: 800px;
         width: 100%;
         margin: 0 auto;
-        /* padding-right: 5em; */
-        /* padding-left: 5em; */
     }
 
     fieldset {
@@ -241,23 +231,9 @@ input:focus {
         padding-left: 1px;
     }
 
-    input:focus {
-        box-shadow:
-            0 0 0 5px burlywood,
-            0 0 0 10px;
-    }
-
-    :focus {
-        box-shadow:
-            0 0 0 5px #2D3945,
-            0 0 0 10px;
-        opacity: .9;
-        transition: all .8s ease;
-    }
-
     .pgTitle {
         text-align: center;
-        font-size: 30px;
+        font-size: 20px;
     }
 
     .contact-info {
@@ -290,7 +266,6 @@ input:focus {
     }
 
     .client-field-info {
-        border: solid red 2px;
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
@@ -310,12 +285,12 @@ input:focus {
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
-        /* justify-content: space-between; */
         font-weight: 300;
         color: #6E7E8C;
     }
 
     .label-info {
+        flex-basis: 150px;
         margin-top: 10px;
         padding-top: 10px;
     }
@@ -338,20 +313,15 @@ input:focus {
     }
 
     .news-letter {
+        display: block;
+        margin-top: 50px;
+        font-size: 25px;
         text-align: center;
+
     }
 
     .zip-input {
-        font-weight: 300;
-        color: #6E7E8C;
-        background-color: #EBEBEB;
-        width: 75%;
-        height: 40px;
-        margin-top: 9px;
-        border: none;
-        border: solid red 2px;
-        border-radius: 5px;
-
+        flex-basis: 35%;
     }
 
     .other-topics-format {
